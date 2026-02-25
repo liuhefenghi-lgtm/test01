@@ -1,0 +1,21 @@
+# Claude API
+anthropic>=0.40.0
+
+# Vector database (embedded, no server needed)
+chromadb>=0.5.0
+
+# Multilingual sentence embeddings (Chinese/English)
+sentence-transformers>=3.0.0
+
+# Image processing
+Pillow>=10.0.0
+
+# CLI and terminal UI
+rich>=13.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# ML backend for sentence-transformers (use CPU-only to save space)
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
